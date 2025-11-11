@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8; 
+    margin: 0 auto; 
+    padding-top: 30px;
+    color: #333;
+    min-height: 100vh;
+    max-width: 900px;
+    padding: 0 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; 
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.tambah-data-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.tambah-data-link a {
+    color: #b734db;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 15px;
+    border: 2px solid #9e34db;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tambah-data-link a:hover {
+    background-color: #c834db;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff; 
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+th {
+    background-color: #34495e; 
+    color: white;
+    font-weight: 600;
+    padding: 15px 10px;
+    text-align: center; 
+    border: none;
+}
+
+td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #ecf0f1; 
+    text-align: center; 
+    color: #555;
+}
+
+tr:hover {
+    background-color: #ecf0f1; 
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+td:last-child a {
+    color: #2980b9; 
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 8px;
+    transition: color 0.2s;
+}
+
+td:last-child a:hover {
+    color: #c0392b;
+    text-decoration: underline;
+}
